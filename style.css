@@ -1,0 +1,27 @@
+.logo {
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    text-align: center;
+    overflow: hidden;
+}
+
+a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+}
+
+.mi,
+.home {
+    margin-top: 3px;
+}
+
+.home {
+    margin-left: -53px;
+    transition: all .25s;
+}
+
+div:hover .home {
+    margin-left: 0;
+}
